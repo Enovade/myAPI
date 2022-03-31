@@ -9,6 +9,10 @@ app.get('/sesb', (req, res) => {
     res.json('Salam Sejahtera SESB!');
 });
 
+app.get('/nama', (req, res) => {
+    res.json({ nama: 'SESB'});
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
