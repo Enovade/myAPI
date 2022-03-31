@@ -39,6 +39,6 @@ jobs:
         script: |
           pm2 delete all
           cd /home/hh/myAPI
-          git pull
+          git pull https://${{secrets.GIT_USERNAME}}:${{secrets.GIT_PAT}}@github.com/Enovade/myAPI.git
           npm install
           pm2 start index.js
