@@ -38,7 +38,7 @@ jobs:
         password: ${{secrets.AZURE_KATALALUAN}}
         script: |
           pm2 delete all
-          cd /home/hh/nodeapp
+          cd /home/hh/myAPI
           git pull
           npm install
           pm2 start index.js
