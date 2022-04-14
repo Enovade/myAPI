@@ -6,11 +6,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/sesb', (req, res) => {
-    res.json('Salam Sejahtera SESB!');
+    res.json('Salam Sejahtera UiTM!');
 });
 
 app.get('/nama', (req, res) => {
-    res.json({ nama: 'SESB'});
+    res.json({ nama: 'UiTM'});
 });
 
 app.listen(4000, () => {
