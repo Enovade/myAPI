@@ -5,8 +5,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.get('/sesb', (req, res) => {
-    res.json('Salam Sejahtera UiTM!');
+app.get('/tnb', (req, res) => {
+    res.json('Salam Sejahtera TNB!!');
 });
 
 app.get('/nama', (req, res) => {
