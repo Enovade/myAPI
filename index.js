@@ -17,6 +17,10 @@ app.get('/nama', (req, res) => {
     res.json({ nama: 'UiTM'});
 });
 
+app.get('/enovade', (req, res) => {
+    res.json({ nama: 'Free McD Burger'});
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
