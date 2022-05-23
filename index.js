@@ -9,6 +9,10 @@ app.get('/tnb', (req, res) => {
     res.json('Salam Sejahtera TNB!!');
 });
 
+app.get('/ujian', (req, res) => {
+    res.json('Salam Sejahtera TNB!!');
+});
+
 app.get('/nama', (req, res) => {
     res.json({ nama: 'UiTM'});
 });
