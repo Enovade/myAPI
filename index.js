@@ -10,7 +10,7 @@ app.get('/tnb', (req, res) => {
 });
 
 app.get('/sirim', (req, res) => {
-    res.json('Salam Sejahtera Warga SIRIM!!');
+    res.json({msg: 'Salam Sejahtera Warga SIRIM!!'});
 });
 
 app.get('/enovade', (req, res) => {
