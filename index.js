@@ -9,6 +9,10 @@ app.get('/tnb', (req, res) => {
     res.json('Salam Sejahtera TNB!!');
 });
 
+app.get('/sirim', (req, res) => {
+    res.json('Salam Sejahtera Warga SIRIM!!');
+});
+
 app.get('/enovade', (req, res) => {
     res.json({ nama: 'Free McD Burger'});
 });
