@@ -13,6 +13,10 @@ app.get('/sirim', (req, res) => {
     res.json({msg: 'Salam Sejahtera Warga SIRIM!!'});
 });
 
+app.get('/aia', (req, res) => {
+    res.json({msg: 'Afternoon AIA!!!'});
+});
+
 app.get('/enovade', (req, res) => {
     res.json({ nama: 'Free McD Burger'});
 });
